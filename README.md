@@ -82,10 +82,17 @@ Pinging: 100%|██████████████████████
 After the scan, the script will display a summary of alive and dead hosts in the specified range:
 
 ```bash
---- Ping Sweep Summary ---
-Total Alive Hosts: 8 (80.00%)
-Total Dead Hosts: 2
-----------------------------
+Pinging:   0%|                                                                                  | 0/10 [00:00<?, ?IP/s]ITS ALIVE! 192.168.1.126
+Pinging:  10%|███████▍                                                                  | 1/10 [00:01<00:09,  1.02s/IP]ITS ALIVE! 192.168.1.125
+ITS ALIVE! 192.168.1.129
+ITS ALIVE! 192.168.1.122
+Pinging:  30%|██████████████████████▏                                                   | 3/10 [00:04<00:10,  1.44s/IP]ITS ALIVE! 192.168.1.128
+ITS ALIVE! 192.168.1.123
+ITS ALIVE! 192.168.1.127
+Pinging:  70%|███████████████████████████████████████████████████▊                      | 7/10 [00:04<00:01,  1.83IP/s]ITS ALIVE! 192.168.1.124
+ITS ALIVE! 192.168.1.120
+Pinging:  80%|███████████████████████████████████████████████████████████▏              | 8/10 [00:10<00:03,  1.50s/IP]ITS ALIVE! 192.168.1.121
+Pinging: 100%|█████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  1.01s/IP]
 ```
 
 ## Troubleshooting
